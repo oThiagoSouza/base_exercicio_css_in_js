@@ -1,4 +1,4 @@
-import { HeroSection, Container, Titulo } from './Hero'
+import { HeroSection, Container, Titulo } from './styles'
 
 const Hero = () => (
   <HeroSection>

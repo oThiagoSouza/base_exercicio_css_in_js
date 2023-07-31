@@ -7,6 +7,7 @@ export const HeroSection = styled.section`
   background-size: cover;
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
 
   @media (max-width: 768px) {
@@ -28,7 +29,7 @@ export const HeroSection = styled.section`
 export const Container = styled.div`
   position: relative;
   left: 35px;
-  color: #eee;
+  color: var(--cor-secundaria);
 
   @media (max-width: 768px) {
     left: auto;
@@ -37,7 +38,6 @@ export const Container = styled.div`
 export const Titulo = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
-  text-align: center;
 
   @media (max-width: 768px) {
     font-size: 30px;
